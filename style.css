@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #222;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav ul li a.active {
+  border-bottom: 2px solid cyan;
+}
+
+.logo {
+  color: cyan;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero span {
+  color: cyan;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 60px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.skills li {
+  margin-top: 5px;
+}
+
+/* Dark Mode */
+.dark {
+  background: #111;
+  color: white;
+}
